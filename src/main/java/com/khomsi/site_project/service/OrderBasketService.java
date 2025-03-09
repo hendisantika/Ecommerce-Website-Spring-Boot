@@ -7,9 +7,9 @@ import com.khomsi.site_project.repository.OrderBasketRepository;
 import com.khomsi.site_project.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.webjars.NotFoundException;
 
-import javax.transaction.Transactional;
 import java.util.List;
 
 @Service
